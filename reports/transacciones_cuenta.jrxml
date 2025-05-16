@@ -1,0 +1,300 @@
+<!-- Created with Jaspersoft Studio version 7.0.2.final using JasperReports Library version 7.0.2-31532122640f516c6d17238ae0e41a08113d5ac0  -->
+<jasperReport name="transacciones_cuenta" language="java" columnCount="1" pageWidth="752" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="974ce90f-9152-4396-adf6-f23ffd537397">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="Dataset2" uuid="ee2f2aad-1dff-417a-8830-bc2cf40095ab">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<query language="sql"><![CDATA[]]></query>
+	</dataset>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="40">
+		<element kind="rectangle" uuid="412e5364-e40e-42c6-a59b-02b0a90f49ae" x="0" y="20" width="752" height="20" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</element>
+		<element kind="staticText" uuid="8a580353-35f8-49b0-bab6-5cccdc41f172" x="180" y="25" width="394" height="15" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Transitorio Porvenir]]></text>
+		</element>
+		<element kind="staticText" uuid="67b57683-07c5-4801-9594-bde6094b4e57" x="254" y="2" width="240" height="19" fontSize="11.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[2 TRANSACCIONES DE LA CUENTA]]></text>
+		</element>
+	</title>
+	<columnHeader height="69" splitType="Stretch">
+		<element kind="rectangle" uuid="0d727214-9afc-49a2-b556-efc21efbe205" x="376" y="18" width="188" height="37" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="9d123b1e-c864-4c3d-9896-79f566c94e10" x="376" y="0" width="376" height="18" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="cd6750e8-c4e9-49b8-9d55-58669a6aa65f" x="188" y="0" width="188" height="55" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="c25b59cf-711b-42ee-86d7-9ac965462d2c" x="0" y="0" width="188" height="55" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="adc585df-7862-4144-b3a1-54d16caffbbe" x="564" y="18" width="188" height="37" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="staticText" uuid="5dbe3f06-5b1f-471e-a6c4-baee80b9973a" x="57" y="21" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Concepto]]></text>
+		</element>
+		<element kind="staticText" uuid="81713a1a-0bd8-4df7-9ca8-5ba850454436" x="225" y="21" width="115" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Fecha del movimiento]]></text>
+		</element>
+		<element kind="staticText" uuid="732ee6d9-0e1e-485c-9d53-4c2cd36e8a4d" x="507" y="3" width="115" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Cuenta Individual]]></text>
+		</element>
+		<element kind="staticText" uuid="dbe5ef66-8f90-4f64-b9fb-26fa4250c425" x="413" y="30" width="115" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[En Pesos]]></text>
+		</element>
+		<element kind="staticText" uuid="b042bad3-ea41-4d6d-9bb9-9140fa090951" x="610" y="30" width="115" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Retención Contingente]]></text>
+		</element>
+		<element kind="rectangle" uuid="d14cfb47-1de4-4e50-ba24-b457e55288c2" x="0" y="55" width="752" height="14" backcolor="#E7F2E1">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</element>
+		<element kind="staticText" uuid="ea6b3eb9-46dd-4ea4-b127-3e199029a358" x="180" y="55" width="394" height="14" fontSize="8.0" bold="false" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Movimiento Fondo Recaudador]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="23">
+			<element kind="component" uuid="1266d27d-d03f-4aff-9a35-aa5d69d2eefc" x="0" y="0" width="752" height="23">
+				<component kind="table">
+					<datasetRun uuid="d71999c8-5461-4c71-b6ff-4a716b5e53c7" subDataset="Dataset2">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource() ]]></dataSourceExpression>
+					</datasetRun>
+					<column kind="single" uuid="f04e2133-9eb4-4231-aed6-94f3cfeb217b" width="188">
+						<detailCell height="18" style="Table_TD">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</detailCell>
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+					</column>
+					<column kind="single" uuid="5d29b756-be0e-4743-a961-4d77936a3d2d" width="188">
+						<detailCell height="18" style="Table_TD"/>
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+					</column>
+					<column kind="single" uuid="7d20d5c7-71a5-426b-995a-d54e6154a223" width="188">
+						<detailCell height="18" style="Table_TD">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</detailCell>
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+					</column>
+					<column kind="single" uuid="f7d0ce4d-d179-4940-83c2-4e067e4c7f3f" width="188">
+						<detailCell height="18" style="Table_TD"/>
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+					</column>
+				</component>
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+				<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+				<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+			</element>
+		</band>
+	</detail>
+	<summary height="266">
+		<element kind="staticText" uuid="07dc395d-15e3-49c9-8e84-4f97782f19c0" x="226" y="10" width="296" height="19" fontSize="11.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[2.2 Rentabilidad del Portafolio]]></text>
+		</element>
+		<element kind="rectangle" uuid="ae393f41-825e-42c5-b2b1-25b54b892956" x="0" y="29" width="249" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="5ea7a5e6-8079-4083-8bb0-5b5fe1c6b578" x="249" y="29" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="2cc79046-b00c-4fd7-b1e3-51528967fc9b" x="500" y="29" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="staticText" uuid="e098b6a2-ad21-4dda-8b93-3472f3cf8c06" x="86" y="37" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Mes]]></text>
+		</element>
+		<element kind="staticText" uuid="ad188751-36a6-4aaf-b859-5b9eefc526e1" x="335" y="37" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Trimestre]]></text>
+		</element>
+		<element kind="staticText" uuid="bbc2395c-43a9-4dcd-90e8-34fe4192061b" x="600" y="37" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Año]]></text>
+		</element>
+		<element kind="rectangle" uuid="e255bd53-9c8b-4813-99e5-aa61ccd9aced" x="0" y="49" width="249" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="96b5aed1-379c-49d4-be33-0e89a0aec666" x="249" y="49" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="1c748f46-b1f9-45ed-bee8-24f29e5340b5" x="500" y="49" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="staticText" uuid="c81c76ea-284e-4083-8535-15296b38e949" x="225" y="77" width="296" height="19" fontSize="11.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[2.3 Rentabilidad del afiliado en el Portafolio]]></text>
+		</element>
+		<element kind="rectangle" uuid="a291241d-b169-4cef-86ea-8544c56d7ad0" x="0" y="96" width="249" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="4f18cb52-21ff-497a-84f6-b93b86b19e4f" x="249" y="96" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="1ac23391-4221-4a2b-8420-2da0ac99367a" x="500" y="96" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="staticText" uuid="463fba10-6b2b-477a-998a-2621769f6a69" x="86" y="104" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Mes]]></text>
+		</element>
+		<element kind="staticText" uuid="226f0313-b4ea-45ee-9c73-9e1cb0e762c5" x="335" y="104" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Trimestre]]></text>
+		</element>
+		<element kind="staticText" uuid="ee872ab1-f3ce-43cd-99a2-09252a7d6f0a" x="600" y="104" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Año]]></text>
+		</element>
+		<element kind="rectangle" uuid="2b6bab13-0394-471f-8e91-4b8066b05429" x="0" y="116" width="249" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="9d482afc-9fe0-478d-938b-3203e1c5254e" x="249" y="116" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="ee4bde8d-f9fa-422f-9e1c-13dd83c3b7b9" x="500" y="116" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="staticText" uuid="3c5e1991-baf1-4db1-bf9a-3bdcd17e96b9" x="174" y="144" width="400" height="19" fontSize="11.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[2.4 Rendimientos Abonados del Afiliado en el Portafolio]]></text>
+		</element>
+		<element kind="rectangle" uuid="4bf8b24f-c5fc-4aaa-9b3a-fab444b04fa3" x="0" y="163" width="249" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="e10fdde8-2bcc-4737-b789-73e27cee3317" x="249" y="163" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="0287f82d-7b63-40fa-b89c-3c2a8b09a032" x="500" y="163" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="staticText" uuid="79500542-b5ea-4c6b-9284-451d86a59ae7" x="86" y="171" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Mes]]></text>
+		</element>
+		<element kind="staticText" uuid="360048a0-35b5-4952-afca-aba37aa45e02" x="335" y="171" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Trimestre]]></text>
+		</element>
+		<element kind="staticText" uuid="391b2d72-6184-4972-a71a-87006e0cacdf" x="600" y="171" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Año]]></text>
+		</element>
+		<element kind="rectangle" uuid="56239c8c-9d0c-42df-bf13-bf73d73e1820" x="0" y="183" width="249" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="c849cfcf-fe1f-4996-b4bc-93a20fe8438e" x="249" y="183" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="bf842f1b-2f35-4504-ab2c-095cd72a6cd4" x="500" y="183" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="staticText" uuid="162fd90c-1f0d-4751-bdbd-95b30c81671f" x="227" y="211" width="296" height="19" fontSize="11.0" bold="true" hTextAlign="Center">
+			<text><![CDATA[2.5 Comisiones del afiliado en el portafolio]]></text>
+		</element>
+		<element kind="rectangle" uuid="5a126952-b4ac-44e2-ac63-8029b1a5f134" x="0" y="230" width="249" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="8ee72acb-8a96-40c7-8484-b5f25f3727ac" x="249" y="230" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="rectangle" uuid="6ae77ee2-f936-4c67-a40a-5bdd78972767" x="500" y="230" width="251" height="20" backcolor="#EEEEEE">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5"/>
+		</element>
+		<element kind="staticText" uuid="d667fa10-07ad-418e-a3ea-af152f643336" x="86" y="238" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Mes]]></text>
+		</element>
+		<element kind="staticText" uuid="ae603c61-30b3-461a-9441-a165fb823a4f" x="335" y="238" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Trimestre]]></text>
+		</element>
+		<element kind="staticText" uuid="7b046f9c-93a4-4925-8412-07e41dea31da" x="600" y="238" width="75" height="12" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Último Año]]></text>
+		</element>
+		<element kind="rectangle" uuid="f7d7ae97-5569-4c8b-9e8e-bfb5e6293261" x="0" y="250" width="249" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="f5f02397-080f-4b00-80d3-a3c9754e9a8e" x="249" y="250" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+		<element kind="rectangle" uuid="b92fa6c9-e87e-4f36-a9db-7d442613d71d" x="500" y="250" width="251" height="16" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<pen lineWidth="0.5" lineColor="#030303"/>
+		</element>
+	</summary>
+</jasperReport>
