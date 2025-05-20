@@ -1,0 +1,113 @@
+<!-- Created with Jaspersoft Studio version 7.0.2.final using JasperReports Library version 7.0.2-31532122640f516c6d17238ae0e41a08113d5ac0  -->
+<jasperReport name="observaciones" language="java" columnCount="1" pageWidth="752" pageHeight="612" columnWidth="752" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a0f45170-e2d2-4b3c-8bc7-bdcf2a7f2123">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<pageHeader height="426" splitType="Stretch">
+		<element kind="staticText" uuid="be4bffb1-34fa-4477-877c-4acad5ce427b" x="8" y="6" width="350" height="20" forecolor="#555A5D" fontSize="14.0" bold="true">
+			<text><![CDATA[Instrucciones para una mejor lectura de tu extracto]]></text>
+		</element>
+		<element kind="frame" uuid="f592f5d5-cebf-43af-9e81-3221191e4fbe" x="11" y="27" width="730" height="393">
+			<element kind="staticText" uuid="1fdddc11-2485-4f18-b67b-406ee65d06d0" x="0" y="6" width="239" height="363" fontSize="5.0" hTextAlign="Justified">
+				<text><![CDATA[Apreciado(a) afiliado(a)
+El presente extracto le informa los movimientos realizados en cada uno de los objetivos y los portafolios de inversión que conforman su cuenta individual. Las siguientes definiciones le permiten una mejor interpretación de cada uno de los conceptos relacionados:
+1. Resumen de la cuenta individual
+1.1. Resumen de movimientos de la cuenta individual
+Registra la información de lo ocurrido durante el período en cada uno de los portafolios de inversión que conforman su cuenta.
+Los tipos de aporte son:
+Aportes consolidados: Corresponde a aquellos aportes efectuados por el partícipe y/o por la entidad patrocinadora en desarrollo del plan empresarial, sobre los cuales el partícipe tiene la propiedad sobre los mismos.
+Aportes no consolidados: Corresponde a aquellos aportes efectuados por la entidad patrocinadora en desarrollo del plan empresarial, sobre los cuales la consolidación de la propiedad sobre los mismos está sujeta al cumplimiento de una
+condición o requisito establecido en el plan. Nombre del portafolio: Corresponde a la identificación de cada uno de los
+portafolios de inversión ofrecidos por Porvenir en el Régimen de Inversión del Fondo, en los que se encuentran invertidos los recursos de su cuenta. Saldo inicial (pesos): Es el valor en pesos acumulado para cada uno de los portafolios de Inversión, a la fecha de corte inmediatamente anterior al presente extracto.
+Aportes: Suma de dinero que deposita el afiliado y/o la entidad patrocinadora que se abona en su cuenta individual.
+Retiros: Es el total de débitos realizados en el período desde cada uno de los portafolios de inversión. Incluye retiros del fondo y/o traslados a otras administradoras de fondos voluntarios y/o cuentas AFC, cobro de comisiones, deducciones y retenciones a que haya lugar.
+Traslados entre portafolios de inversión : Es el valor movilizado, entre los portafolios de inversión de su cuenta, durante el período reflejado. 
+Valorización total: Corresponde a la valorización del período de generación del presente Extracto, la cual se obtiene de la sumatoria de los reintegros de comisión diferencial y los rendimientos netos.
+Rendimientos brutos: Corresponde a los valores registrados como rendimientos antes de comisiones menos el valor calculado como gastos.
+Reintegro comisión diferencial: Es el rembolso de la diferencia entre, la comisión cobrada en forma general a todos los afiliados al Fondo y la real aplicada en cada
+uno de los portafolios de inversión convencionales con comisión diferencial, que componen su portafolio individual.
+Rendimientos netos: Diferencia entre el saldo inicial, final y movimientos realizados durante el período de generación del presente extracto, una vez descontadas las comisiones y deducciones a que haya lugar.
+Saldo final (pesos): Es el resultado de la sumatoria del saldo inicial, aportes, retiros, traslados entre portafolios y valorizaciones, realizadas en el período en cada uno de
+los Portafolios de Inversión.
+Saldo restringido para planes empresariales: Es el valor de los aportes a la fecha de corte del presente extracto que tienen restricción(es) operativa(s) para su retiro del fondo y que son establecidas por la entidad patrocinadora en el documento de
+adhesión al plan. 
+1.2. Rentabilidad de la cuenta individual
+Corresponde a la Tasa Interna de Retorno del flujo de caja diario del período del cálculo, que considera como ingresos: (i) el valor de la participación en el portafolio y/o alternativa o la cuenta individual, según el caso, al inicio de operaciones del
+primer día de dicho período y ii) el valor neto de los aportes efectuados durante el mismo período, y como egreso el valor de la participación en el portafolio y/o alternativa o la cuenta individual al cierre del último día del período de cálculo.(Mensual/Trimestral/Anual).]]></text>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="staticText" uuid="bcd5c1de-337c-4d6c-8cf7-67b9d032491e" x="260" y="3" width="219" height="376" fontSize="5.0" hTextAlign="Justified">
+				<text><![CDATA[1.3. Rendimientos abonados de la cuenta individual
+Corresponde al retorno expresado en pesos, producto de la gestión, manejo e inversión; Calculado por la diferencia entre el saldo inicial, final y movimientos realizados durante el período de generación del extracto, descontando comisiones y deducciones a que haya lugar. (Mensual/Trimestral/Anual).
+1.4. Comisiones de la cuenta individual
+Monto total de comisiones cobradas durante el último mes, trimestre y año anteriores a la fecha de corte del extracto, junto con el porcentaje efectivamente cobrado por comisiones en este período.
+1.5. Gastos de la cuenta individual
+Corresponde a la sumatoria de los registros consignados a diario por el proceso de integración de saldos contables detallados multiplicado por el porcentaje de participación en el portafolio del afiliado. (Mensual/Trimestral/Anual).
+2. Transacciones de la cuenta
+Registra la información básica de lo ocurrido durante el período en cada portafolio que conforma su cuenta.
+Concepto: Indica el tipo de movimiento generado en la cuenta individual.
+Fecha de movimiento: Corresponde a la fecha en que se registra el movimiento (consignación o retiro), en la cuenta individual.
+Cuenta individual: Corresponde a la información de los movimientos realizados en su cuenta. Se refleja en:
+Pesos: Valor en pesos moneda corriente colombiana a la fecha del movimiento.
+Retención contingente: Corresponde al valor neto del beneficio tributario que le fue reportado por su empleador y/o pagador.
+2.1. Rentabilidad del portafolio
+Rentabilidad efectiva anual obtenida por el portafolio durante el último mes, último trimestre y último año.
+2.2. Rentabilidad del afiliado en el portafolio
+Rentabilidad efectiva anual obtenida por el afiliado en su cuenta individual en cada uno de los portafolios durante el último mes, último trimestre y último año.
+2.3. Rendimientos abonados del afiliado en el portafolio
+Rendimientos abonados obtenidos por el afiliado en su cuenta individual en cada uno de los portafolios durante el último mes, último trimestre y último año.
+2.4. Comisiones del afiliado en el portafolio
+El monto total de comisiones cobradas al participante en el portafolio y/o alternativa durante el último mes, últimos tres meses y último año, junto con el porcentaje efectivamente cobrado por comisiones en ese periodo.
+3. Condición(es) pendiente(s) para consolidación de derechos
+En esta sección podrá encontrar los tipos de condiciones o requisitos determinados en el plan para que se consolide la propiedad de los aportes empleador, definidas por la entidad patrocinadora para cada objetivo de inversión.
+SI, indica que los aportes son del partícipe.
+NO, indica que la consolidación de la propiedad sobre los aportes está sujeta al cumplimiento de una condición o requisito.
+Descripción de la condición: Corresponde al detalle de la(s) condición(es) o requisitos establecidas por la entidad patrocinadora para la consolidación de los aportes.
+4. Observaciones
+4.1. Resumen por Objetivos de Inversión
+Su cuenta está conformada por objetivos de inversión que son metas fijadas con el fin de lograr el cumplimiento de sus planes de ahorro futuros. Esta sección registra la información general de los objetivos que conforman su cuenta individual.
+Objetivo de Inversión: Corresponde al nombre de cada uno de los objetivos en su cuenta, para el periodo que se reporta.
+Saldo inicial (pesos): Es el valor en pesos acumulado para cada uno de los portafolios de Inversión, a la fecha de corte inmediatamente anterior al presente.]]></text>
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			</element>
+			<element kind="staticText" uuid="6f363fff-cb4d-4ba1-a62f-39b5a4c248e4" x="500" y="3" width="216" height="360" fontSize="5.0" hTextAlign="Justified">
+				<text><![CDATA[Aportes: Suma de dinero que deposita el afiliado y/o la entidad patrocinadora que se abona en su cuenta individual.
+Retiros: Es el total de débitos realizados en el período desde cada uno de los portafolios de inversión. Incluye retiros del fondo y/o traslados a otras administradoras de fondos voluntarios y/o cuentas AFC, cobro de comisiones, deducciones y retenciones a que haya lugar.
+Traslado entre portafolios de inversión: Es el valor movilizado, entre los portafolios de inversión de su cuenta durante el período reflejado.
+Valorización Total: Corresponde a la valorización del período de generación del presente Extracto, la cual se obtiene de la sumatoria de los reintegros de comisión diferencial y los rendimientos netos.
+Rendimientos abonados durante el período: Diferencia entre el saldo inicial, final y movimientos realizados durante el periodo de generación del presente extracto, una vez descontadas las comisiones y deducciones a que haya lugar.
+Reintegro comisión diferencial: Es el rembolso de la diferencia entre, la comisión cobrada en forma general y la real aplicada en cada uno de los portafolios de inversión convencionales con comisión diferencial, que componen su portafolio individual.
+Saldo final(Pesos): Es el resultado de la sumatoria del saldo inicial, aportes, retiros, traslados entre portafolios y valorizaciones, realizadas en el período en cada uno de los Portafolios de Inversión.
+Saldo restringido para planes empresariales: Es el valor de los aportes a la fecha de corte del presente extracto que tienen restricción(es) operativa(s) para su retiro del fondo y que son establecidas por la entidad patrocinadora en el documento de adhesión al plan.
+Saldo afiliado: Es el saldo, a la fecha de corte del presente extracto, de los aportes realizados por el afiliado en desarrollo del plan.
+Saldo entidad patrocinadora: Es el saldo, a la fecha de corte del presente extracto de los aportes realizados por la entidad patrocinadora.
+4.2. Saldo por objetivos
+Es la información de cada objetivo que corresponde a:
+Saldo sin retención contingente y con comisión diferencial: Corresponde a la sumatoria de los aportes valorizados y el reintegro de la comisión diferencial a la fecha de corte del presente extracto, los cuales no tienen asociada una retención contingente.
+Saldo con retención contingente: Corresponde a la sumatoria de los aportes que tienen asociada una retención contingente a la fecha de corte del presente extracto.
+Saldo exento: Es el valor acumulado de los aportes valorizados que tienen más de 5 años en el fondo a la fecha de corte del presente extracto y por lo tanto no se les descuenta retención contingente y retención en la fuente al momento de realizar un retiro.
+Retención contingente del período: Corresponde al valor neto del beneficio tributario que le fue reportado por su empleador y/o pagador, en los aportes realizados durante el período en el Fondo.
+Retención contingente acumulada: Corresponde al saldo del beneficio tributario que fue reportado por su empleador y/o pagador, con ocasión de los aportes efectuados al Fondo, a la fecha de corte del presente extracto.
+4.3. Monto en proceso de acreditación
+Valor correspondiente a los aportes identificados consignados en cheque, que se encuentran en canje a la fecha de corte del presente extracto.
+Aportes en canje: Valor de los aportes recibidos en Porvenir que se encuentran en proceso de canje bancario. Saldo final + aportes en canje: valor total de la cuenta.
+4.4. Saldos bloqueados
+Comprende la relación de los aportes de su cuenta individual cuyo bloqueo ha sido autorizado para que constituya garantía y fuente de pago de obligaciones contraídas y/o de los aportes que han sido bloqueados en cumplimiento de una orden de autoridad competente.
+4.5. Datos Generales
+Para que usted siempre cuente con un servicio personalizado, en el presente extracto encontrará información básica de localización del canal y/o persona que le atenderá.]]></text>
+			</element>
+		</element>
+		<property name="com.jaspersoft.studio.unit.height" value="px"/>
+	</pageHeader>
+</jasperReport>

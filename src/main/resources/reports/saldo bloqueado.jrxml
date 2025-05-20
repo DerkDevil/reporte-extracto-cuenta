@@ -1,0 +1,104 @@
+<!-- Created with Jaspersoft Studio version 7.0.2.final using JasperReports Library version 7.0.2-31532122640f516c6d17238ae0e41a08113d5ac0  -->
+<jasperReport name="saldo bloqueado" language="java" columnCount="1" pageWidth="752" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="7a8a280c-ad8b-4cae-929f-dc366a0cd71f">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="Empty Dataset1" uuid="21c95169-d024-4e49-8dc9-427a2a8d6e0a">
+		<field name="beneficiario" class="java.lang.String"/>
+		<field name="valor" class="java.lang.Double"/>
+		<variable name="valorTotal" calculation="Sum" class="java.lang.Double">
+			<expression><![CDATA[$F{valor}]]></expression>
+		</variable>
+	</dataset>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="23" splitType="Stretch">
+		<element kind="staticText" uuid="f6df247e-1122-4334-b066-aba03bfc2439" x="0" y="0" width="752" height="23" fontSize="7.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[4.4 Saldos bloqueados]]></text>
+		</element>
+	</title>
+	<detail>
+		<band height="55" splitType="Stretch">
+			<element kind="component" uuid="76b952bb-432c-4f22-8109-07720dd5c337" stretchType="NoStretch" x="0" y="0" width="752" height="55">
+				<component kind="table">
+					<datasetRun uuid="4d39621a-ba27-49b5-a52a-6555c732925d" subDataset="Empty Dataset1">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<column kind="single" uuid="0941d43a-2305-403b-9bb7-f0a34ec683ea" width="376">
+						<columnHeader height="20" rowSpan="1" style="Table_CH">
+							<element kind="staticText" uuid="b1bd6d00-d3f0-47d1-882b-cf87acb17b41" mode="Opaque" x="0" y="0" width="376" height="20" backcolor="#F0EDED" fontName="Arial" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+								<text><![CDATA[Beneficiario]]></text>
+							</element>
+						</columnHeader>
+						<columnFooter height="15" rowSpan="1" style="Table_CH">
+							<element kind="staticText" uuid="15adc055-31f7-401d-a4bf-6cb181329228" mode="Opaque" x="0" y="0" width="376" height="15" backcolor="#F0EDED" fontName="Arial" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+								<text><![CDATA[Valor total]]></text>
+							</element>
+						</columnFooter>
+						<detailCell height="20" style="Table_TD">
+							<element kind="textField" uuid="98562e7b-3ad6-4ecc-b292-371894d1e1da" x="0" y="0" width="376" height="20" fontName="Arial" fontSize="7.5" hTextAlign="Left" vTextAlign="Middle">
+								<expression><![CDATA[$F{beneficiario}]]></expression>
+							</element>
+						</detailCell>
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+					</column>
+					<column kind="single" uuid="b171a3a9-4901-4403-8b55-bf56f8f9762f" width="376">
+						<columnHeader height="20" rowSpan="1" style="Table_CH">
+							<element kind="staticText" uuid="e844f1fc-bedb-4e45-9e69-c569865ac58d" mode="Opaque" x="0" y="0" width="376" height="20" backcolor="#F0EDED" fontName="Arial" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+								<text><![CDATA[Valor]]></text>
+							</element>
+						</columnHeader>
+						<columnFooter height="15" rowSpan="1" style="Table_CH">
+							<element kind="textField" uuid="7668ed8c-f383-4a9c-be21-9ebc5c1ce8f9" mode="Opaque" x="0" y="0" width="376" height="15" backcolor="#F0EDED" fontName="Arial" fontSize="7.5" bold="false" hTextAlign="Right" vTextAlign="Middle">
+								<expression><![CDATA[$V{valorTotal}]]></expression>
+							</element>
+						</columnFooter>
+						<detailCell height="20" style="Table_TD">
+							<element kind="textField" uuid="a37cdb3e-b068-46cc-8958-1020990da833" x="0" y="0" width="376" height="20" fontName="Arial" fontSize="7.5" hTextAlign="Right" vTextAlign="Middle">
+								<expression><![CDATA[$F{valor}]]></expression>
+							</element>
+						</detailCell>
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+					</column>
+				</component>
+				<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+				<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+				<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

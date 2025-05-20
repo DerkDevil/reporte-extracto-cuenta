@@ -1,0 +1,31 @@
+<!-- Created with Jaspersoft Studio version 7.0.2.final using JasperReports Library version 7.0.2-31532122640f516c6d17238ae0e41a08113d5ac0  -->
+<jasperReport name="observaciones" language="java" columnCount="1" pageWidth="752" pageHeight="612" columnWidth="752" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a0f45170-e2d2-4b3c-8bc7-bdcf2a7f2123">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<pageHeader height="140" splitType="Stretch">
+		<element kind="staticText" uuid="6562d31a-eaeb-427c-b591-4e2489200d5b" x="0" y="0" width="752" height="140" fontSize="8.0" hTextAlign="Justified">
+			<text><![CDATA[Para mayor información ingrese a www.porvenir.com.co, Pensiones Voluntarias y haciendo clic en el botón "El proceso de inversión en Porvenir" y "Rentabilidad de los portafolios de inversión" podrá conocer:(i) El reglamento del Fondo voluntario de pension Porvenir (FVPP) y la Guía de Administración de la Cuenta y (ii) Los portafolios de Inversión del FVPP y sus Rentabilidades. Las rentabilidades informadas en el presente extracto, corresponden a Rentabilidades Netas.
+De conformidad con la Ley 1328 de 2009, es responsabilidad de los consumidores financieros, observar las instrucciones y recomendaciones que impartan las entidades financieras sobre el manejo de sus productos y/o servicios. Por lo tanto, le solicitamos comparar y verificar la información del presente extracto con los movimientos realizados en su cuenta del Fondo voluntario de pension. Si usted llega a encontrar alguna inconsistencia en los movimientos o en el saldo
+de su cuenta, deberá reportarla a nuestra Auditoria Interna Fax 339 01 01, al A.A. 241800 de Bogotá, D.C., o a la Revisoría Fiscal, KPMG Ltda. al A.A. 9122 de Bogotá, D.C. 
+Si desea mayor información sobre el contenido del extracto, puede comunicarse a través de nuestra Línea de Servicio al Cliente desde Bogotá al 601 7447678, Cali 602 4857272, Medellin 604 6041555, Barranquilla 605 3855151 otras ciudades 01 8000510800, o a través de los canales de servicio ofrecidos en nuestra página de internet www.porvenir.com.co
+No permita que un tramitador le cobre dinero, puede hacer sus trámites en Porvenir sin costo. Si alguien le cobra, o tiene denuncias relacionadas con fraudes o ética de nuestros empleados, denúncielo ingresando a:
+www.porvenir.com.co/web/acerca-de-porvenir/linea-etica o comunicándote al teléfono en Bogotá 601 7434441 Ext. 77777.
+Cuenta con un Defensor del Consumidor Financiero, Dra. Ana María Giraldo Rincón ubicado en la carrera 10 N? 97a - 13 oficina 502 en Bogotá, Teléfono: 601 6108164, defensoriaporvenir@legalcrc.com, quien dará trámite a su queja de
+forma objetiva y gratuita.
+Recuerde que podrá modificar su perfil en cualquier momento mediante el diligenciamiento de la encuesta disponible a través de nuestros canales de servicio o con su Consultor asignado.
+** "HORARIO DE ATENCIÓN: Los consumidores o usuarios podrán contactar al Defensor del Consumidor Financiero principal o su suplente de lunes a viernes en el horario de 8:00 a.m. a 6:00 p.m. jornada continua y permanente en la
+página web.".
+Si desea conocer el esquema de Comisiones que cobra el Fondo Voluntario de Pensión Porvenir ingrese a https://www.porvenir.com.co/documents/64204/0/PDF_comisiones_administracion.pdf]]></text>
+		</element>
+	</pageHeader>
+</jasperReport>

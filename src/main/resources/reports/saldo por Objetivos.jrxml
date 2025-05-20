@@ -1,0 +1,183 @@
+<!-- Created with Jaspersoft Studio version 7.0.2.final using JasperReports Library version 7.0.2-31532122640f516c6d17238ae0e41a08113d5ac0  -->
+<jasperReport name="saldo por Objetivos" language="java" columnCount="1" pageWidth="752" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="9ad87e16-2aaf-4f50-8b08-f986db4913b1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="Empty Dataset1" uuid="bf0a287b-c83a-40a3-968e-81917b0c55a3">
+		<field name="objetivoInversion" class="java.lang.String"/>
+		<field name="saldoSinRetencionReintegro" class="java.lang.Double"/>
+		<field name="saldoConRetencionContingente" class="java.lang.Double"/>
+		<field name="saldoNoGravadoExento" class="java.lang.Double"/>
+		<field name="retencionContingentePeriodo" class="java.lang.Double"/>
+		<field name="retencionContingenteAcumulada" class="java.lang.Double"/>
+		<variable name="totalSaldoSinRet" class="java.lang.String"/>
+		<variable name="totalSaldoConRet" class="java.lang.String"/>
+		<variable name="totalSaldoExento" class="java.lang.String"/>
+		<variable name="totalRetPeriodo" class="java.lang.String"/>
+		<variable name="totalRetAcumulada&#xa;&#xa;" class="java.lang.String"/>
+	</dataset>
+	<query language="sql"><![CDATA[]]></query>
+	<title height="29" splitType="Stretch">
+		<element kind="frame" uuid="5c982954-13ee-421e-90fc-b68a32031d1b" x="0" y="0" width="752" height="30">
+			<element kind="staticText" uuid="63e6d5e5-1fec-4f5a-8418-6fa8e1c777d3" x="0" y="0" width="752" height="30" fontSize="10.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[4.2 Saldo por Objetivos]]></text>
+			</element>
+		</element>
+	</title>
+	<summary height="100" splitType="Stretch">
+		<element kind="component" uuid="0818304a-4f16-4711-ae6f-7d6d9ef707aa" x="0" y="1" width="752" height="100">
+			<component kind="table">
+				<datasetRun uuid="d055312e-cc3a-4779-b877-32a3c6f37287" subDataset="Empty Dataset1">
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				</datasetRun>
+				<column kind="single" uuid="74b2186f-2d2c-4adb-82d8-a0a797652e70" width="99">
+					<columnHeader height="40" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="c056779e-9c4e-41f1-9a9a-5f2ca7da7f25" x="0" y="0" width="99" height="40" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Objetivo de Inversión]]></text>
+						</element>
+					</columnHeader>
+					<columnFooter height="30" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="d973fb7b-2388-4dc8-acd4-7b39914ed16b" x="0" y="0" width="99" height="30" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Total]]></text>
+						</element>
+					</columnFooter>
+					<detailCell height="30" style="Table_TD">
+						<element kind="textField" uuid="be008ae0-9aa7-4444-88c4-a2a63726e740" x="0" y="0" width="99" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{objetivoInversion}]]></expression>
+						</element>
+					</detailCell>
+					<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+				</column>
+				<column kind="single" uuid="8d8ca02a-59db-4f34-8dce-a332d323630c" width="131">
+					<columnHeader height="40" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="f0cff15a-041c-4bc4-8d89-fad7cf969c5a" x="0" y="0" width="131" height="40" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Saldo sin Retención Contingente y
+Reintegro Comisión Diferencial]]></text>
+						</element>
+					</columnHeader>
+					<columnFooter height="30" rowSpan="1" style="Table_CH">
+						<element kind="textField" uuid="d3cab27d-d120-41fc-81ac-c78b4c8acc36" x="0" y="0" width="131" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$V{totalSaldoSinRet}]]></expression>
+						</element>
+					</columnFooter>
+					<detailCell height="30" style="Table_TD">
+						<element kind="textField" uuid="c68a57cf-ba4a-49bf-bfda-f55934d37a61" x="0" y="0" width="131" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{saldoSinRetencionReintegro}]]></expression>
+						</element>
+					</detailCell>
+					<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+				</column>
+				<column kind="single" uuid="1d06b3d0-d821-4f09-a46e-d5aee433ea54" width="129">
+					<columnHeader height="40" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="fee648bf-d3c3-4915-bae5-16cd960253f6" x="0" y="0" width="129" height="40" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Saldo con Retención Contingente]]></text>
+						</element>
+					</columnHeader>
+					<columnFooter height="30" rowSpan="1" style="Table_CH">
+						<element kind="textField" uuid="26bd2b84-fc0d-49ac-b92f-fef90a39356f" x="0" y="0" width="129" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$V{totalSaldoConRet}]]></expression>
+						</element>
+					</columnFooter>
+					<detailCell height="30" style="Table_TD">
+						<element kind="textField" uuid="6aae8c3d-8b21-407c-bf21-2560e940712c" x="0" y="0" width="129" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{saldoConRetencionContingente}]]></expression>
+						</element>
+					</detailCell>
+					<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+				</column>
+				<column kind="single" uuid="31cc5574-eae3-43b2-90f4-d6d89ca6b144" width="121">
+					<columnHeader height="40" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="5815dda9-49a9-499f-964e-dbb10fc62fc4" x="0" y="0" width="121" height="40" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Saldo no gravado y/o exento]]></text>
+						</element>
+					</columnHeader>
+					<columnFooter height="30" rowSpan="1" style="Table_CH">
+						<element kind="textField" uuid="d6761147-9d85-4132-996a-607ce8073a80" x="0" y="0" width="121" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$V{totalSaldoExento}]]></expression>
+						</element>
+					</columnFooter>
+					<detailCell height="30" style="Table_TD">
+						<element kind="textField" uuid="7158d710-829b-40e9-8e15-24dc32646e3c" x="0" y="0" width="121" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{saldoNoGravadoExento}]]></expression>
+						</element>
+					</detailCell>
+					<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+				</column>
+				<column kind="single" uuid="7bef7484-aee1-4407-a3dc-cd8f5b200200" width="129">
+					<columnHeader height="40" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="e1de9899-3242-4d75-8f3a-09f560f8454c" x="0" y="0" width="129" height="40" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Retención Contingente del Período]]></text>
+						</element>
+					</columnHeader>
+					<columnFooter height="30" rowSpan="1" style="Table_CH">
+						<element kind="textField" uuid="1957f62c-1ef9-4054-a111-86e4db5c68b4" x="0" y="0" width="129" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$V{totalRetPeriodo}]]></expression>
+						</element>
+					</columnFooter>
+					<detailCell height="30" style="Table_TD">
+						<element kind="textField" uuid="341fe651-5bfe-47fd-a8a7-49cd1b748f4b" x="0" y="0" width="129" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{retencionContingentePeriodo}]]></expression>
+						</element>
+					</detailCell>
+					<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+				</column>
+				<column kind="single" uuid="c1e820ec-ed61-4c85-8a60-6351815b1331" width="143">
+					<columnHeader height="40" rowSpan="1" style="Table_CH">
+						<element kind="staticText" uuid="0553beea-fc20-42b3-8eab-e124053a0e75" x="0" y="0" width="143" height="40" fontSize="7.5" bold="true" hTextAlign="Center" vTextAlign="Middle">
+							<text><![CDATA[Retención Contingente Acumulada]]></text>
+						</element>
+					</columnHeader>
+					<columnFooter height="30" rowSpan="1" style="Table_CH">
+						<element kind="textField" uuid="4bbfc0ca-9792-41b6-bce4-26815c8cb40b" x="0" y="0" width="143" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{retencionContingenteAcumulada}]]></expression>
+						</element>
+					</columnFooter>
+					<detailCell height="30" style="Table_TD">
+						<element kind="textField" uuid="e2cdc520-8cdc-4814-94c0-864d47d86f63" x="0" y="0" width="143" height="30" fontSize="7.5" hTextAlign="Center" vTextAlign="Middle">
+							<expression><![CDATA[$F{retencionContingenteAcumulada}]]></expression>
+						</element>
+					</detailCell>
+					<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+				</column>
+			</component>
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+			<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+			<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+			<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+		</element>
+	</summary>
+</jasperReport>
